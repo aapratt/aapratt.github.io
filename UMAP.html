@@ -1,39 +1,24 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-    <title>PDF in HTML</title>
-</head>
-<style>
-    .pdf {
-        width: 100%;
-        aspect-ratio: 4 / 3;
-    }
-    .pdf,
-    html,
-    body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-    }
-   h1,
-    h3 {
-        text-align: center;
-    }
-
-    h1 {
-        color: green;
-    }
-</style>
-
-<body>
-        <h1>GeeksforGeeks</h1>
-        <h3>Embedding the PDF file Using Iframe Tag</h3>
-        <iframe class="pdf" 
-                src=
-"https://aapratt.github.io/UMAP.pdf"
-            width="800" height="600">
-        </iframe>
-</body>
-
-</html>
+2<html lang="en">
+3<head>
+4    <meta charset="UTF-8">
+5    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+6    <title>UMAP</title>
+7    <style>
+8        body, html {
+9            margin: 0;
+10            padding: 0;
+11            height: 100%;
+12            overflow: hidden;
+13        }
+14        iframe {
+15            width: 100%;
+16            height: 100%;
+17            border: none;
+18        }
+19    </style>
+20</head>
+21<body>
+22    <iframe src="UMAP.pdf"></iframe>
+23</body>
+24</html>
